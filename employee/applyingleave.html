@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Static resources/css/style.css" />
+    <title>Apply leave</title>
+  </head>
+  <body>
+    <div class="top-nav ">
+      <div class="container2 d-flex j-content">
+      <div class="logo-dash ">
+         <p>Waveworks Leave management</p>
+        </div>
+          <div class="top-right">
+            <div class="nav-search2" > <label for="nav-search"><img src="/Static resources/images/search.svg" alt=""></label> 
+              <input type="text" id="nav-search"></div>
+           <img src="/Static resources/images/chat.svg" alt="">
+            <img src="/Static resources/images/bx_bell (2).svg" alt=""> 
+           <img src="/Static resources/images/Privacy policy-pana.svg" alt="">
+          </div>
+          </div>
+          
+    </div>
+    
+    <div class="container">
+     
+    </div>
+    <div class="sidemenu">
+      <div class="top-bar">
+        <ul class="side-menu">
+          <div class="top">
+            <li class=" mar-5 ">
+              <a href="#"><img src="/Static resources/images/logo0.svg" alt="" id="none-hover"></a>
+            </li>
+            
+            <li>
+              
+              <a href="Employeedashboard.html"
+                ><img src="/Static resources/images/dashboard.svg" alt="" class="bth" /></a
+                >
+                <span class="top-left">Dashboard</span>
+            </li>
+            <li>
+              <a href="employeeapplyleave.html"
+                ><img src="/Static resources/images/management-of-leave 1.svg" alt="" /></a
+                >
+                <span class="top-left width1" >Apply leave</span>
+            
+            </li>
+            <li>
+              <a href="employeemyleave.html"
+                ><img src="/Static resources/images/leave notification.svg" alt="" /></a
+                >
+                <span class="top-left width" >My Leave</span>
+            
+            </li>
+            
+           
+            <li>
+              <a href="employeecalandar.html"
+                ><img src="/Static resources/images/calender.svg" alt="" /></a
+                >
+                <span class="top-left">Calendar</span>
+            </li>
+            <li>
+              <a href="employeeprofile.html"
+                ><img src="/Static resources/images/iconamoon_profile-thin.svg" alt="" /></a
+                >
+                <span class="top-left width">My Profile</div>
+            </li>
+           
+          </div>
+        </ul>
+      </div>
+    </div>
+    <div class="left-64 d-flex gap-20 j-center app-full">
+        <div class="whole-apply">
+            <div class="apply-head">
+            <h4>   Apply leave</h4>
+            </div>
+            <div>
+                <label for="emp-id">Employee ID</label>
+                <input type="text" required>
+            </div>
+            <div>
+                <label for="Employee name">Employee Name</label>
+                <input type="text" required>
+            </div>
+            <div>
+                <label>Leave Type</label>
+               <select name="type" id="" required>
+                <option value="" id="cl">Casual leave</option>
+                <option value="">Privilege leave</option>
+                <option value="">Annual leave</option>
+                <option value="">Maternity leave</option>
+                <option value="">Paternity leave</option>
+                <option value="">Unpaid leave</option>
+                <option value="">Sick leave</option>
+                <option value="">Bereavement leave</option>
+               </select>
+            </div>
+            <div>
+                <label for="date">Date</label>
+                From<input type="date" required>
+                To<input type="date" required>
+            </div>
+            <div>
+                <label for="days">Days</label>
+                <input type="text" name="" id="days-app">
+                
+
+            </div><div>
+                <label for="">Type of leave</label>
+              <input type="checkbox" name="" id="" required>Half day
+              <input type="checkbox" name="" id="" required>Full day
+            </div>
+            <div>
+                <div>
+                    <label for="">Half day options</label>
+                    From<input type="time">
+                    To<input type="time">
+                </div>
+                <label for="team id">Team ID</label>
+                <input type="text">
+            </div>
+            <div>
+                <label for="reason">Reason</label>
+               <textarea name="" id="" cols="62" rows="3"></textarea>
+            </div>
+            <div>
+                <input type="file" id="attach">
+                <label for="attach"><img src="/Static resources/images/attachments (1).svg" alt="">Add Attachments</label>
+            </div>
+            <div id="cen-leave" class="gap-20 can-sub">
+                <button class="can">Cancel</button>
+                <button class="sub">Submit</button>
+                
+            </div>
+        </div>
+        <div>
+            <div class="app-bal">
+                <div><Span class="app-mont"><H4>Status</H4></Span></div>
+                <div>
+                    <table id="app-table">
+                    <tr>
+                        <td>Applied</td>
+                        <td> Casual leave</td>
+                    </tr>
+                    <tr>
+                        <td>For</td>
+                        <td>3 days</td>
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                        <td> 12 days</td>
+                    </tr>
+                    <tr>
+                        <td>Balance</td>
+                        <td> 6 days</td>
+                    </tr>
+                </table></div>
+            </div>
+        </div>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="cancellation-pop centerpop">
+      <div class="cancel">
+        <div>
+          <h3>Are you sure to cancel the request?</h3>
+          <div class="yes-nobtn">
+            <button class="yes">Yes</button>
+            <button class="no">No</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<style>
+  .cancel h3 {
+    color: white;
+    margin: 10px;
+  }
+  .cancel {
+    background-color: #262829;
+    padding: 20px;
+    width: 300px;
+    border-radius: 5px;
+  }
+  .yes-nobtn {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .yes-nobtn button {
+    padding: 6px 20px;
+    border-radius: 4px;
+  }
+  .yes {
+    background-color: #868686;
+    border: none;
+  }
+  .no {
+    background-color: transparent;
+    border: 1px solid #868686;
+    color: white;
+  }
+  .centerpop {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .cancellation-pop {
+    z-index: 2;
+    opacity: 0;
+  }
+</style>
